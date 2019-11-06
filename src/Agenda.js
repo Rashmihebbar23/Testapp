@@ -10,7 +10,7 @@ class Agenda extends Component{
         //Go
         const gofunction =() =>{
             console.log("go function",this.props)
-            this.props.history.go(-1);
+            this.props.history.go(-2);
         }
         const gobackfunction =() =>{
             console.log("goback function",this.props)
